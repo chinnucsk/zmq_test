@@ -5,7 +5,9 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  inets,
+                  crypto
                  ]},
   {mod, { zmq_test_app, []}},
   {env, []}
